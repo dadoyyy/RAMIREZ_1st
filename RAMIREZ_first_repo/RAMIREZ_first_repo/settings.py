@@ -55,7 +55,7 @@ ROOT_URLCONF = 'RAMIREZ_first_repo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['RAMIREZAPP'],
+        'DIRS': ['templates/pos_app'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
